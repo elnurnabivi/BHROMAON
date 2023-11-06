@@ -1,8 +1,13 @@
 {
+  "homepage": "http://elnurnabivi.github.io/BHROMAON",
+  "name": "Bhromaon",
+  "version": "1.0.0",
   "scripts": {
+    "deploy": "gh-pages -d .",
     "watch:scss": "node-sass -w assets/style/styles.scss assets/style/styles.css"
   },
-  "dependencies": {
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
     "node-sass": "^9.0.0"
   }
 }
