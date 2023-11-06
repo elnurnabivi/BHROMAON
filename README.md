@@ -1,5 +1,6 @@
 # Bhromaon Travel Website
 This project is a simple travel website named Bhromaon. The aim is to provide a platform for users to search and plan their travels. The website is responsive and designed with a modern aesthetic in mind.
+You can see the project live https://elnurnabivi.github.io/Bhromaon/
 
 ## Technologies Used
 HTML5,
