@@ -73,7 +73,7 @@ header {
   }
   .main-page {
     @include flex-center();
-    background: url(/Bhromaon/assets/img/main-image.png);
+    background: url("assets/img/main-image.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -124,7 +124,8 @@ header {
 }
 
 .btn-primary {
-  background: url(/Bhromaon/assets/img/button.png);
+  // background: url(/Bhromaon/assets/img/button.png);
+  background: url("assets/img/button.png");
   width: 228px;
   height: 63px;
   color: #fff;
@@ -138,7 +139,8 @@ header {
 .why-us {
   @include flex-center();
   justify-content: space-evenly;
-  background: url(/Bhromaon/assets/img/whychooseus.png);
+  // background: url(/Bhromaon/assets/img/whychooseus.png);
+  background: url("assets/img/whychooseus.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -173,7 +175,8 @@ header {
 
 .spain {
   height: 700px;
-  background: url(/Bhromaon/assets/img/spain1.png);
+  // background: url(/Bhromaon/assets/img/spain1.png);
+  background: url("assets/img/spain1.png");
   position: relative;
   &_box {
     width: 543px;
@@ -188,7 +191,8 @@ header {
 
 .madrid {
   height: 700px;
-  background: url(/Bhromaon/assets/img/Spain2.png);
+  // background: url(/Bhromaon/assets/img/Spain2.png);
+  background: url("assets/img/Spain2.png");
   position: relative;
   &_box {
     width: 543px;
@@ -203,7 +207,8 @@ header {
 
 .testimonial {
   height: 731px;
-  background: url(/Bhromaon/assets/img/testimonial.png);
+  // background: url(/Bhromaon/assets/img/testimonial.png);
+  background: url("assets/img/testimonial.png");
   @include flex-center();
   flex-direction: column;
   &_say {
